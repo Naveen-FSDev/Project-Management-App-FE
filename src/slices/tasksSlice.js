@@ -7,7 +7,7 @@ const initialState = {
     error:''
 }
 
-const BASE_URL = 'https://management-khjq.onrender/api/tasks'
+const BASE_URL = 'https://management-khjq.onrender.com/api/tasks'
 
 //GET
 export const getTasksFromServer = createAsyncThunk(
